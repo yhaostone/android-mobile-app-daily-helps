@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--<TextView-->
+                <!--android:id="@+id/helpingNeedsTV"-->
+                <!--android:text="Helping"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <ListView
+                android:id="@+id/helpingNeedsLV"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:background="@layout/listview_border"/>
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/otherNeedsTV"-->
+                <!--android:text="Nearby Needs"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_height="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/fab_margin"
+            app:elevation="6dp"
+            app:borderWidth="0dp"
+            android:src="@android:drawable/ic_dialog_map"
+            app:useCompatPadding="true" />
+
+
+    </RelativeLayout>
+</LinearLayout>

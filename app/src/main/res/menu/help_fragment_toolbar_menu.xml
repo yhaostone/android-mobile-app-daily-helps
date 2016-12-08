@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/myHelpingList"
+        android:icon="@drawable/email"
+        android:title="My Helping List"
+
+        />
+
+    <item
+        android:id="@+id/myHelpedList"
+        android:icon="@drawable/email"
+        android:title="My Helped List"
+
+        />
+</menu>

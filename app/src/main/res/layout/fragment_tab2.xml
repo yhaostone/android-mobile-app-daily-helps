@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="Video 'Kindness Boomerang'"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/video_kindness_preview2"
+        android:layout_centerVertical="true"
+        android:id="@+id/imageView" />
+
+    <VideoView
+        android:id="@+id/videoView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:id="@+id/playbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="play"
+        android:textColor="@color/light_blue"
+
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text="Source:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sourceTitleTV" />
+
+    <TextView
+        android:text="@string/kindness_video_source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sourceTV" />
+
+
+
+</LinearLayout>
